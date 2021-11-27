@@ -15,4 +15,5 @@ int main(){
     }
 
     printf("ANSWER = %d",sum);
+    return 0;
 }
