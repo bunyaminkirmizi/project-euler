@@ -23,7 +23,7 @@ int main(){
 	memo_prime_index = 0;
 	unsigned long long largest_prime = 0;
 	unsigned long long num = NUMBER;
-    memo_prime[memo_prime_index] = 2;
+	memo_prime[memo_prime_index] = 2;
 	for(unsigned long long i = 2; i<=num;i++){
 		if(NUMBER % i == 0){
 			if(is_prime(i)){
